@@ -1,0 +1,45 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "使用webpack搭建的自定义react脚手架。",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.22.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^2.0.2",
+    "webpack": "^4.16.5",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack-dev-server --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenghuo/webpack-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenghuo/webpack-react/issues"
+  },
+  "homepage": "https://github.com/kenghuo/webpack-react#readme"
+}
