@@ -6,7 +6,7 @@
 
 ```
 $ npm install
-$ npm start
+$ npm run dev
 ```
 安装依赖，本地运行
 
